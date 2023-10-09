@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <div class="main">
+    
+    <form name="myform" action="" onsubmit="return validateform()" method="post" id="form">
+   <div class="head">
+    <h2 class="heading"> Registration Form</h2>
+   </div>
+   <br>
+   <br>
+    Name<input class="field" type="text" name="name" id="n1"/><br>
+    Email<input  class="field" type="email" name="email" id="n2"/><br>
+    City<input  class="field" type="text" name="city" id="n3" /><br>
+    Mobile<input  class="field"  name="mob" type="text" id="n4"/>
+    <p id="demo"></p>
+    <div class="btn">
+        <button type="submit" class="btn" onclick="validateform()">submit</button>
+    </div>
+    </form>
+
+    <table border="1px">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>City</th>
+            <th>Mob</th>
+        </tr>
+        
+
+        <tbody id="data">
+           
+        </tbody>
+    </table>
+   </div>
+
+
+<script src="task.js"></script>
+
+</body>
+</html>
+
+
